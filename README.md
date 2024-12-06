@@ -14,3 +14,11 @@
 
 ###  AIDE:
 ####   当时用的手机开发的程序，使用的是手机开发工具AIDE。源码可以正常在AIDE正常编译，想要使用Android Studio开发可能需要做一定的调整。
+
+# 截图
+
+<!-- ---------- Screenshots ---------- -->
+<div style="display: flex;">
+  <img src="main.jpg" width=30%>
+  <img src="setting.jpg" width=30%>
+</div>
