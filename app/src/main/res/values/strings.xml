@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SVPN</string>
+    <string name="menu_item_switch">代理</string>
+    <string name="menu_item_toggle_global">开/关全局模式</string>
+    <string name="menu_item_about">关于</string>
+    <string name="menu_item_exit">退出</string>
+	<string name="menu_item_info">应用放行</string>
+    <string name="config_url">配置地址</string>
+    <string name="config_not_set_value">未设置</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_more">更多&#8230;</string>
+    <string name="vpn_connected_status">已连接.</string>
+    <string name="vpn_disconnected_status">已断开.</string>
+	<string name="svpn_statusline_id">network-traffic</string>
+	<string name="svpn_statusline_name">网络流量</string>
+	<string name="svpn_statusline_description">显示实时网速并统计上传和下载的流量</string>
+	<string name="svpn_statusline_bytecount">↑%1$s/s\t-\t↓%2$s/s</string>
+	<string name="svpn_statusline_bigtext">发送:\t%1$s\t↑\t%2$s/s\n接收:\t%3$s\t↓\t%4$s/s</string>
+    <string name="about_info">Shadowsocks android 由dawei开发维护,可以在任意Android 4.0+上使用，无需ROOT权限。它是基于SmartProxy与Shadowsocks-Java改装。</string>
+    <string name="exit_confirm_info">这将会断开VPN连接，确定要退出吗？</string>
+    <string name="err_invalid_url">无效的配置地址</string>
+    <string name="config_url_hint">ss://method:password@host:port</string>
+
+	<string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+
+	<string name="add_text">添加配置</string>
+	<string name="zt_text">粘贴配置</string>
+</resources>

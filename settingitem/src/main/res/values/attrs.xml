@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="setting_item">
+        <attr name="title" format="string"/>
+		<attr name="subTitle" format="string"/>
+        <attr name="titleIcon" format="integer"/>
+        <attr name="rightIcon" format="integer"/>
+        <attr name="titleSize" format="float"/>
+        <attr name="titleColor" format="color"/>
+        <attr name="isShowUnderLine" format="boolean"/>
+        <attr name="titleIconSize" format="dimension"/>
+        <attr name="title_MarginLeft" format="dimension"/>
+        <attr name="rightStyle" format="enum">
+            <enum name="iconShow" value="0"/>
+            <enum name="iconHide" value="1"/>
+            <enum name="iconCheck" value="2"/>
+            <enum name="iconSwitch" value="3"/>
+        </attr>
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextSize" format="float"/>
+        <attr name="rightTextColor" format="color"/>
+    </declare-styleable>
+</resources>

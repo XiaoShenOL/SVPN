@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="?attr/selectableItemBackground"
+	android:orientation="horizontal"
+	android:paddingBottom="8dp"
+	android:paddingLeft="8dp"
+	android:paddingTop="8dp"
+	android:gravity="center"
+	android:theme="@style/AppTheme.AppBarOverlay">
+
+	<ImageView
+		android:layout_width="48dp"
+		android:layout_height="48dp"
+		android:layout_gravity="center"
+		android:src="@mipmap/ic_launcher"
+		android:id="@+id/app_icon"/>
+
+	<LinearLayout
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:layout_weight="6"
+		android:orientation="vertical"
+		android:layout_marginLeft="5dp">
+
+		<TextView
+			android:id="@+id/mainText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:maxLines="1"
+			android:singleLine="true"/>
+
+		<TextView
+			android:id="@+id/subText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dp"
+			android:maxLines="1"
+			android:singleLine="true"
+			android:textSize="14sp"/>
+
+	</LinearLayout>
+
+	<CheckBox
+		android:id="@+id/checkBox"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:clickable="false"
+		android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="5dp"/>
+
+</LinearLayout>
+

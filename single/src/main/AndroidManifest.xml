@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.svpn.proxy" >
+
+    <application>
+        <activity
+            android:name=".SingleActivity"
+            android:label="抓包应用"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
+
